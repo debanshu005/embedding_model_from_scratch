@@ -4,6 +4,7 @@ __pycache__/
 .ipynb_checkpoints/
 checkpoints/*.pt
 .DS_Store
+linkedin_post.md
 
 # Large datasets — use scripts/download_data.py
 data/all-nli-pair-class/

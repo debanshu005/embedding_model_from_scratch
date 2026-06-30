@@ -1,0 +1,13 @@
+{
+  "carousel_order": [
+    "01_architecture.png",
+    "02_before_after_cosine.png",
+    "03_separation_gap.png",
+    "04_tsne_clusters.png",
+    "05_semantic_search.png",
+    "06_loss_curve.png"
+  ],
+  "separation_gap_after": 0.322,
+  "query": "How do language models represent text?",
+  "note": "Demo assets \u2014 representative values from notebook run"
+}
