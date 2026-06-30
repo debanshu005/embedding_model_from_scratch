@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+checkpoints/*.pt
+.DS_Store
+
+# Large datasets — use scripts/download_data.py
+data/all-nli-pair-class/
+data/stsbenchmark/
