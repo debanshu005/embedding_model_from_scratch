@@ -9,5 +9,6 @@
   ],
   "separation_gap_after": 0.322,
   "query": "How do language models represent text?",
+  "theme": "dark-modern",
   "note": "Demo assets \u2014 representative values from notebook run"
 }
