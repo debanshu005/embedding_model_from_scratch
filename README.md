@@ -296,7 +296,7 @@ After training, the notebook produces shareable artifacts:
 5. **Semantic search** — `"How do language models represent text?"` → top passages
 6. **t-SNE plot** — topic clusters in 2D
 
-### LinkedIn hook (copy-ready)
+### Share hook (copy-ready)
 
 > I rebuilt an OpenAI-style embedding encoder from scratch in PyTorch — transformer, mean pooling, L2 norm, InfoNCE + hard negatives on AllNLI.
 >
@@ -352,7 +352,10 @@ Together they cover the two core primitives of modern AI apps: **retrieve** then
 embedding_model_from_scratch/
 ├── embedding_training.ipynb   # Full pipeline: data → train → evaluate
 ├── scripts/
-│   └── download_data.py       # Fetch AllNLI + STS locally
+│   ├── download_data.py       # Fetch AllNLI + STS locally
+│   └── export_carousel_assets.py  # Generate share carousel slides
+├── assets/
+│   └── carousel/              # Exported slide PNGs + manifest.json
 ├── data/
 │   └── README.md              # Dataset documentation
 ├── checkpoints/               # Saved weights (after training)
